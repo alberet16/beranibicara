@@ -1,0 +1,79 @@
+.green-text {
+  color: #2ca572;
+}
+
+/*tentang kami*/
+.background-tentang-kami {
+  height: 80vh;
+}
+
+.background-relative {
+  position: relative;
+}
+
+.section-1 {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  left: 0;
+}
+
+/*Telepon Cepat*/
+.telepon-cepat {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #37ce8f;
+  border: none;
+  position: fixed;
+  z-index: 999;
+  bottom: 100px;
+  right: 200px;
+}
+
+.col-lg {
+  margin: 10px;
+  background-color: #272727;
+  border-radius: 10px;
+}
+
+.col-lg a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.background-black {
+  flex-direction: row;
+  align-items: center;
+  background-color: #272727;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.berani-bicara {
+  width: 80%;
+}
+
+@media (max-width: 850px) {
+  body {
+    position: relative;
+  }
+  .navigasi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .navigasi a {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  /*Telepon Cepat*/
+  .telepon-cepat {
+    right: 50px;
+    bottom: 150px;
+  }
+}

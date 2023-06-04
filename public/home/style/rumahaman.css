@@ -1,0 +1,102 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+/*rumah aman*/
+.container-rumah-aman {
+  position: relative;
+}
+
+#background-rumah-aman {
+  height: 230vh;
+}
+
+.content-rumah-aman {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 100px;
+  bottom: 150px;
+}
+
+.logo-fasilitas {
+  width: 50px;
+}
+
+.row .col-sm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*telepon cepat*/
+.telepon-cepat {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #37ce8f;
+  border: none;
+  position: fixed;
+  z-index: 99999;
+  bottom: 150px;
+  right: 100px;
+}
+@media (max-width: 850px) {
+  body {
+    position: relative;
+  }
+  .navigasi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .navigasi a {
+    margin: 0 10px;
+  }
+
+  #background-rumah-aman {
+    height: 300vh;
+  }
+
+  .telepon-cepat {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #37ce8f;
+    border: none;
+    position: fixed;
+    z-index: 99999;
+
+    bottom: 150px;
+    right: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  #background-rumah-aman {
+    height: 350vh;
+  }
+
+  .navigasi {
+    display: flex;
+    flex-direction: column;
+  }
+  .telepon-cepat {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #37ce8f;
+    border: none;
+    position: fixed;
+    z-index: 99999;
+    right: 25px;
+    bottom: 150px;
+  }
+}

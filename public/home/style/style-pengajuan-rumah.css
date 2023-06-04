@@ -1,0 +1,41 @@
+.left-section {
+    margin-top: 150px;
+  }
+  
+  .title-left-section {
+    font-size: 50px;
+  }
+  
+  label {
+    display: block;
+    padding: 5px 0;
+  }
+  
+  input,
+  textarea {
+    padding: 8px 10px;
+    border: solid 1px rgb(206, 205, 205);
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .button-lapor{
+    margin-top: 70px;
+  }
+  .button-lapor .button-cepat {
+    background-color: #A60707;
+  }
+  
+  @media (max-width: 768px) {
+    .left-section {
+      margin-top: 25px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+  }
+  

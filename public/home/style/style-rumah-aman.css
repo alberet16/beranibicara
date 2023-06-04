@@ -1,0 +1,53 @@
+.rumah-aman {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin-bottom: -50px;
+  color: white;
+}
+
+.rumah-aman img {
+  width: 100%;
+}
+.container-rumah-aman {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+}
+
+.title-rumah-aman,
+.rumah-aman-description {
+  margin-bottom: 50px;
+}
+
+button {
+  margin-bottom: 260px;
+}
+
+.fasilitas-rumah-aman {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.detail-fasilitas {
+  width: 100px;
+  color: white;
+  font-size: 13px;
+}
+
+.detail-fasilitas img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.detail {
+  margin-bottom: 50px;
+}
+
+.contact .fw-light {
+  margin-top: -10px;
+}
